@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+	font-family: Menlo;
+	color: #878787;
+	margin: 0;
+	background-color: #e8edfc;
+}
+
+.header {
+	text-transform: uppercase;
+	margin: 10% 10% 0% 10%;
+	color: #686767;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+hr {
+
+}
+
+nav ul {
+	margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 5px 0px 4px;
+    justify-content: space-between;
+	text-align: center;
+}
+
+ul li {
+	list-style-type: None;
+	letter-spacing: 2px;
+    margin: 1.6em 60px;
+}
+
+nav a {
+	/* Adding style to links in the navigation tag*/
+	color: #636363;
+	text-decoration-line: None;
+}
+
+a:hover { 
+	/* Adding style when user's mouse hovers over the link*/
+	text-transform: uppercase;
+	border-radius: 4px;
+	cursor: pointers;
+	color: #0554bc;
+}
+
+
+
+
+
+
