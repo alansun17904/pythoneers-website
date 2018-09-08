@@ -1,21 +1,32 @@
 body {
     padding: 0;
 	font-family: Menlo;
-	color: #878787;
+	color: white;
 	margin: 0;
-	background-color: #e8edfc;
+	background-color: #575AFF;
+}
+
+.about {
+	background-color: black;
+}
+
+.about article {
+	padding: 1%;
+	line-height: 32px;
+	margin: 5% 10% 0% 10%;
+
 }
 
 .header {
 	text-transform: uppercase;
 	margin: 10% 10% 0% 10%;
-	color: #686767;
+	color: white;
 	text-align: center;
 	letter-spacing: 5px;
 }
 
 hr {
-
+	color: black;
 }
 
 nav ul {
@@ -35,7 +46,7 @@ ul li {
 
 nav a {
 	/* Adding style to links in the navigation tag*/
-	color: #636363;
+	color: white;
 	text-decoration-line: None;
 }
 
@@ -44,7 +55,7 @@ a:hover {
 	text-transform: uppercase;
 	border-radius: 4px;
 	cursor: pointers;
-	color: #0554bc;
+	color:  #8F8F8F;
 }
 
 
