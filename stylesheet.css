@@ -3,23 +3,39 @@ body {
 	font-family: Menlo;
 	color: white;
 	margin: 0;
-	background-color: #575AFF;
+	background-color: #8AA9FE;
+}
+
+.logo {
+	background-color: BlanchedAlmond;
+	text-align: center;
+	height: auto;
+	max-height: auto;
+	max-width: auto;
+	width: auto;
+}
+
+#site-logo {
+	height: auto;
+	width: auto;
+	max-height: 600px;
+	max-width: 600px;
+
 }
 
 .about {
-	background-color: black;
-}
-
-.about article {
+	background-color: #000000;
 	padding: 1%;
-	line-height: 32px;
-	margin: 5% 10% 0% 10%;
-
+	font-size: 12px;
+	line-height: 25px;
+	text-align: left;
 }
+								
+
 
 .header {
 	text-transform: uppercase;
-	margin: 10% 10% 0% 10%;
+	margin: 5% 10% 0% 10%;
 	color: white;
 	text-align: center;
 	letter-spacing: 5px;
@@ -27,6 +43,7 @@ body {
 
 hr {
 	color: black;
+	color: red;
 }
 
 nav ul {
@@ -55,8 +72,9 @@ a:hover {
 	text-transform: uppercase;
 	border-radius: 4px;
 	cursor: pointers;
-	color:  #8F8F8F;
+	color:  #000000;
 }
+
 
 
 
