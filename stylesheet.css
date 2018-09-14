@@ -2,7 +2,7 @@ body {
     padding: 0;
 	font-family: Menlo;
 	color: white;
-	margin: 0;
+	margin: 0% 10% 0% 10%;
 	background-color: #8AA9FE;
 }
 
@@ -26,7 +26,7 @@ body {
 .about {
 	background-color: #000000;
 	padding: 1%;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 25px;
 	text-align: left;
 }
@@ -36,9 +36,15 @@ body {
 .header {
 	text-transform: uppercase;
 	margin: 5% 10% 0% 10%;
+    padding: 2%;
 	color: white;
 	text-align: center;
 	letter-spacing: 5px;
+}
+
+.header a {
+    color: white;
+	text-decoration-line: None;
 }
 
 hr {
@@ -61,6 +67,10 @@ ul li {
     margin: 1.6em 60px;
 }
 
+.social-media li {
+    font-size: 10px;
+}
+
 nav a {
 	/* Adding style to links in the navigation tag*/
 	color: white;
@@ -75,7 +85,16 @@ a:hover {
 	color:  #000000;
 }
 
-
+article {
+    margin: 10px 40px 10px 40px;
+    background-color: black;
+}
+article p {
+    margin: 10px 10% 10px 10%;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 1%;
+}
 
 
 
