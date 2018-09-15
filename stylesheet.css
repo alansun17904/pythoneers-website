@@ -1,3 +1,7 @@
+img {
+	max-width: 100%;
+}
+
 body {
     padding: 0;
 	font-family: Menlo;
@@ -48,7 +52,6 @@ body {
 }
 
 hr {
-	color: black;
 	color: red;
 }
 
